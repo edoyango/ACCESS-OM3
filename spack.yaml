@@ -30,9 +30,9 @@ spack:
     access-mom6:
       require:
       - '@2026.01.001'
-      - 'fflags="-march=sapphirerapids -mtune=sapphirerapids -unroll"'
-      - 'cflags="-march=sapphirerapids -mtune=sapphirerapids -unroll"'
-      - 'cxxflags="-march=sapphirerapids -mtune=sapphirerapids -unroll"'
+      - 'fflags="-march=sapphirerapids -mtune=sapphirerapids -unroll -g -debug inline-debug-info -O3"'
+      - 'cflags="-march=sapphirerapids -mtune=sapphirerapids -unroll -g -debug inline-debug-info -O3"'
+      - 'cxxflags="-march=sapphirerapids -mtune=sapphirerapids -unroll -g -debug inline-debug-info -O3"'
     access-ww3:
       require:
       - '@2026.03.000'
